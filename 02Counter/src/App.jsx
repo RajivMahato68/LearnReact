@@ -12,6 +12,11 @@ const addVlaue = () => {
   console.log("clicked", counter);
   // counter = counter + 1
   if(counter < 20)
+  // setCounter(Prevcounter => Prevcounter + 1)
+  // setCounter(Prevcounter => Prevcounter + 1)
+  // setCounter(Prevcounter => Prevcounter + 1)   {this is a interview question so the fiber store the privious value and one click you wnat to increse 3 or 2 time so used the this type of code }
+  // setCounter(Prevcounter => Prevcounter + 1)
+  // setCounter(Prevcounter => Prevcounter + 1)
   setCounter(counter + 1)
 }
 
